@@ -1,15 +1,14 @@
-/* font-family: 'Inter', sans-serif;*/
 /* start Univesal style*****************/
 *{margin: 0px;
   padding: 0px;  
   font-family: 'Mulish', sans-serif; }
 /* end Univesal style******************/
 /*****start body style****************************/
-html{
+html{margin: auto;
      width: fit-content;}
 body{width:1100px;
      border: 1px solid red;
-     margin: auto;}
+    }
 /*######End body style##########################/
 
 /***start Header style***********/
@@ -128,10 +127,89 @@ border: none;
 color: white;
 }
 .btns >button>img{height: 90%;}
-/*End In Header banerContaner */                 
-/*##start Header style##########*/
+/*End In Header banerContaner */  
 
-/******Nes Letter section start******************/
+/* OurPopular style  */
+.ourPopular{
+            margin: auto;
+            width:87%;
+            display: flex;}
+.popular_Text{width:50%;
+            padding:30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items:flex-start;
+            gap:10px;  } 
+.popular_Text p {color: rgba(19, 19, 24, 0.70);
+                    font-size:16px;
+                    font-weight:600 ;}
+.popular_Text p img{width:14px;}                              
+.OurTital{font-size:30px;
+          font-weight:700;
+          color: #131318;} 
+.popular_Text>button{border-radius:5px;
+     background: #FF5400;
+
+     padding:14px 19px ;
+     border: none;
+     font-size:17px;
+     font-weight:700;
+      color:white;}                     
+.popular_img{width:50%;}          
+.popular_img>img{width:100%;}          
+/*############OurPopular style#############*/
+/*********Choose Your Destination********/
+.Choo_Yo_destin_Contaner{border: 1px solid red; 
+                         width:87%;
+                          margin: auto;
+                          text-align: center;
+                          margin-top:36px;}
+.Choose_Title{font-size: 31px;
+              font-weight:800;
+              color: #131318;}   
+.choose_Desc{color: rgba(19, 19, 24, 0.709);
+                margin-bottom:17px;
+                font-size: 15px;
+                font-weight: 700;
+                letter-spacing:.2px;
+                margin-top: 14px;}                       
+.choo_Yo_img_Contaner1{
+     display: flex;
+     border: green dotted 1px;
+     gap:10px;
+}
+.choo_Yo_img_Contaner2{
+     display: flex;
+     margin-top:5px;
+     gap:10px;
+     border: green dotted 1px;
+}
+.choo_Yo_img_Contaner3{
+     display: flex;
+     gap:10px;
+     border: green dotted 1px;
+}
+
+.img_box{border: 2px solid blue;
+         position:relative;
+         height: fit-content;         
+          margin-top:5px; }
+.img_box>p{position: absolute;
+           top:40%;
+           left:37.5%;
+           font-weight:600;
+           font-size:25px;
+           color: #eff7f7;}
+.img_box>img{width: 100%;
+             height: 100%;}       
+       
+        
+       
+/*#########Choose Your Destination##########*/
+
+
+/******News Letter section start******************/
 .Newsletter-main-Contaner{height:fit-content;
      width:87%;
      
@@ -178,6 +256,121 @@ font-size: 14px;
 width:65%;}
 .feature-img-contaner > img {width:100%;}
 /*##########End News Letter###############*/
+/*start business travel solution  */
+.Business_Contaner{
+            width:98%;
+           margin: auto;
+           margin-top: 40px;
+           margin-bottom: 50px;
+           background: url(Photo/hand.jpg) ;
+           background-color: rgba(255, 255, 255, 0.248);
+           background-blend-mode:overlay;
+           background-repeat: no-repeat;
+           background-position: left;
+           background-size: contain;
+           display: flex;
+           justify-content:flex-end;
+           align-items: center;
+           padding-left: 10px;
+           box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.668); 
+           border-radius:9px;
+     }
+.businessText{width:60%;
+                background-color: rgb(255, 255, 255);
+              display: flex;
+              padding-right: 35px;
+              flex-direction:column;
+              padding:30px;
+              gap:10px;}         
+.buinessTitile{font-family: Montserrat Helvetica Arial,Lucida,sans-serif;
+font-size:25px;
+color: #4d4d4d;}          
+.box{border-left: 2px solid #ff5500b9;
+     font-family: Montserrat Helvetica Arial,Lucida,sans-serif;
+    padding-left: 10px;
+    display:flex;
+    flex-direction: column;
+    gap:5px;}    
+.box1title{color: #ff5500b9;}    
+.boxdec{font-size: 13px;}
+.boxli{color: #ff5500b9;}
+
+.box2{border-left: 2px solid rgba(240, 87, 10, 0.846);
+     padding-left: 10px;}
+.box1title2{color:rgba(240, 87, 10, 0.846);}    
+.boxdec2{font-size: 13px;}
+.boxli2{color: #ff5500ef;}
+
+.box3{border-left: 2px solid  #f72606;
+       padding-left: 10px;}
+.box1title3{color: #ff5500fc;}    
+.boxdec3{font-size: 13px;}
+.boxli3{color: #f72606;}
+/*End business travel solution  */
+
+
+
+/*********footer all page style*********/
+footer{background: rgba(19, 19, 24, 0.05);
+     margin: auto;
+     height:300px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+.content-footer{
+     width:70%;
+     display: flex;
+     font-family: 'Inter Tight', sans-serif;
+     font-weight: 400;
+     letter-spacing: 1px;
+     flex-direction:column;
+     justify-content:center;
+     gap:26px;
+     margin: auto;}
+.logo{font-size: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+      gap: 10px;
+      font-size:27px;
+      color: #131318;
+      font-weight:800;}
+.footerdec{text-align: center;
+     color: #5A5A5D;
+     font-weight: 500;
+     font-size: 12px;
+       }      
+.logo>a{text-decoration: none; 
+       color: black;}
+.logo>a>span{color: #FF5400;}             
+
+.hero-section2{
+border-bottom: 3px solid gray;}
+.hero-section2>.sosial{
+
+width: fit-content;
+margin: auto;
+display:flex;
+justify-content: center;
+align-items: center;
+gap: 25px;}
+.sosial>img{width: 50px;}
+.All_Right-Subscribe{
+                  display: flex;
+                  justify-content:center;
+               align-items: center;
+               margin-bottom:20px;
+               color: #131318;
+               font-family: 'Inter', sans-serif;
+}
+
+
+/* End--------Footer style-------------- */
+ 
+
+
+
 
 
 /*****All Media Query Mobile***************/
@@ -185,7 +378,10 @@ width:65%;}
      html{width: fit-content;}
      body{width:100%;} 
      header{height:540px;}
+     .fast-Nav-Item{font-size: 18px;}
      .second-Nav-Item{display: none;}
+
+     .banertitle{font-size:24px;}
   #mu{display: block;
      width: 20px;}
   #mu:hover .second-Nav-Item{display: block;
@@ -209,11 +405,25 @@ width:65%;}
      padding: 8px;
      gap: 10px;
      height:fit-content;}
- .newtitle{font-size: 30px;}
+ .newtitle{font-size:25px;}
  .new_submit-btn{margin-bottom: 10px;}
  .feature-img-contaner{width: 100%;
  margin-top: 10px;}
  .feature-img-contaner > img {height:100%;}
+  /* our popular tours  */
+  .ourPopular{flex-direction: column;} 
+ .popular_Text{width:90%;}        
+ .popular_img{width:100%;}
+ .popular_img >img{width:100%}
+
+/*Start Business Travel solutions  */
+.Business_Contaner{background: none;
+ justify-content: center;}
+ .businessText{width:100%;}
+.box{border: 1px solid red;
+    padding: 0px;
+     width: 100%;}
+/*######end Business Travel solutions####*/
 }
 /*##########All Media Query Mobile######*/
 
