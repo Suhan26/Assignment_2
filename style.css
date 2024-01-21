@@ -160,9 +160,9 @@ color: white;
 .popular_img>img{width:100%;}          
 /*############OurPopular style#############*/
 /*********Choose Your Destination********/
-.Choo_Yo_destin_Contaner{border: 1px solid red; 
-                         width:87%;
+.Choo_Yo_destin_Contaner{ width:87%;
                           margin: auto;
+                          text-align: center;
                           text-align: center;
                           margin-top:36px;}
 .Choose_Title{font-size: 31px;
@@ -176,14 +176,12 @@ color: white;
                 margin-top: 14px;}                       
 .choo_Yo_img_Contaner1{
      display: flex;
-     border: green dotted 1px;
      gap:10px;
 }
 .choo_Yo_img_Contaner2{
      display: flex;
      margin-top:5px;
      gap:10px;
-     border: green dotted 1px;
 }
 .choo_Yo_img_Contaner3{
      display: flex;
@@ -191,7 +189,7 @@ color: white;
      border: green dotted 1px;
 }
 
-.img_box{border: 2px solid blue;
+.img_box{
          position:relative;
          height: fit-content;         
           margin-top:5px; }
@@ -374,7 +372,7 @@ gap: 25px;}
 
 
 /*****All Media Query Mobile***************/
-@media screen and (min-width:300px) and (max-width:600px) {
+@media screen and (min-width:300px) and (max-width:600px) { 
      html{width: fit-content;}
      body{width:100%;} 
      header{height:540px;}
@@ -410,24 +408,39 @@ gap: 25px;}
  .feature-img-contaner{width: 100%;
  margin-top: 10px;}
  .feature-img-contaner > img {height:100%;}
-  /* our popular tours  */
-  .ourPopular{flex-direction: column;} 
+/****our popular tours*/
+  .ourPopular{flex-direction: column;
+              box-shadow: 0px 0px 20px 1px rgba(128, 128, 128, 0.677);
+               border-radius: 10px;} 
  .popular_Text{width:90%;}        
- .popular_img{width:100%;}
- .popular_img >img{width:100%}
+ .popular_img{width:100%;
+              margin-top:-27px;
+             height: 300px;}
+ .popular_img >img{height:100%;}
 
 /*Start Business Travel solutions  */
 .Business_Contaner{background: none;
+     padding: 0px;
+     margin: 0px;
+     margin-left: 4px;
  justify-content: center;}
- .businessText{width:100%;}
-.box{border: 1px solid red;
-    padding: 0px;
+ .businessText{width:97%;
+
+  padding:0px;
+  margin:10px;}
+.box{padding: 0px;
      width: 100%;}
 /*######end Business Travel solutions####*/
-}
+.choo_Yo_img_Contaner2,
+.choo_Yo_img_Contaner3,
+.choo_Yo_img_Contaner1{flex-direction:column;}
+.img_box{height:230px;}
 /*##########All Media Query Mobile######*/
 
+
+
 /**********All Media query Desktop*********/
+}
 @media screen and (min-width:993px) and (max-width:1100px) {
 
 
